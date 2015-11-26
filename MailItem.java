@@ -15,7 +15,7 @@ public class MailItem
     private String message;
 
     /**
-     * Constructor for objects of class MailItem
+     * Constructor para objetos de la clase mailitem
      */
     public MailItem(String froms,String tos,String messages)
     {
@@ -25,7 +25,7 @@ public class MailItem
     }
 
    /**
-     * getter
+     * Devuelve el emisor
      */
     public String getFrom()
     {
@@ -33,7 +33,8 @@ public class MailItem
     }
     
     /**
-     * getter
+     * Devuelve al receptor
+     * 
      */
     public String getTo()
     {
@@ -41,7 +42,7 @@ public class MailItem
     }
     
     /**
-     * getter
+     * Entrega o da el mensaje
      */
     public String getMessage()
     {
@@ -49,7 +50,9 @@ public class MailItem
     }
     
     /**
-     * print
+     * Pone el texto from, to , mensaje y con ellos
+     * quien es el receptor emisor y cual es el
+     * mensaje
      */
     public void print()
     {

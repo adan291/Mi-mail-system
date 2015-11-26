@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.params=servers\ users
 comment0.target=MailClient(MailServer,\ java.lang.String)
-comment0.text=\n\ Constructor\ for\ objects\ of\ class\ MailClient\n
+comment0.text=\n\ Constructor\ para\ objetos\ de\ la\ calse\ mailclient\n
 comment1.params=
 comment1.target=MailItem\ getNextMailItem()
 comment1.text=\n\ Metodo\ para\ devolver\ mail.\n

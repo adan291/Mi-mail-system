@@ -11,7 +11,7 @@ public class MailClient
     private String user;
 
     /**
-     * Constructor for objects of class MailClient
+     * Constructor para objetos de la calse mailclient
      */
     public MailClient(MailServer servers, String users)
     {
