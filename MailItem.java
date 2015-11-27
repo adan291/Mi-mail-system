@@ -13,16 +13,19 @@ public class MailItem
     private String to;
     //mensaje
     private String message;
+    //Assunto
+    private String subject;
 
-    /**
-     * Constructor para objetos de la clase mailitem
-     */
-    public MailItem(String from,String to,String message)
-    {
-        this.from = from;
-        this.to = to;
-        this.message = message;
-    }
+   /**
+    * Constructor para objetos de la clase mailitem
+   */
+   public MailItem(String from,String to,String message, String subject)
+   {
+       this.from = from;
+       this.to = to;
+       this.message = message;
+       this.subject = subject;
+   }
 
    /**
      * Devuelve el emisor
@@ -41,6 +44,14 @@ public class MailItem
        return to;
     }
     
+     /**
+     * Devuelve el emisor
+     */
+    public String getSubject()
+    {
+        return subject;
+    }
+ 
     /**
      * Entrega o da el mensaje
      */
@@ -58,6 +69,7 @@ public class MailItem
     {
         System.out.println("From: " + from);
         System.out.println("To: " + to);
+        System.out.println("Subject: " + subject);
         System.out.println("Message: " + message);
     }
 }

@@ -1,6 +1,6 @@
 #BlueJ class context
-comment0.params=from\ to\ message
-comment0.target=MailItem(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment0.params=from\ to\ message\ subject
+comment0.target=MailItem(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
 comment0.text=\n\ Constructor\ para\ objetos\ de\ la\ clase\ mailitem\n
 comment1.params=
 comment1.target=java.lang.String\ getFrom()
@@ -9,9 +9,12 @@ comment2.params=
 comment2.target=java.lang.String\ getTo()
 comment2.text=\n\ Devuelve\ al\ receptor\n\ \n
 comment3.params=
-comment3.target=java.lang.String\ getMessage()
-comment3.text=\n\ Entrega\ o\ da\ el\ mensaje\n
+comment3.target=java.lang.String\ getSubject()
+comment3.text=\n\ Devuelve\ el\ emisor\n
 comment4.params=
-comment4.target=void\ print()
-comment4.text=\n\ Pone\ el\ texto\ from,\ to\ ,\ mensaje\ y\ con\ ellos\n\ quien\ es\ el\ receptor\ emisor\ y\ cual\ es\ el\n\ mensaje\n
-numComments=5
+comment4.target=java.lang.String\ getMessage()
+comment4.text=\n\ Entrega\ o\ da\ el\ mensaje\n
+comment5.params=
+comment5.target=void\ print()
+comment5.text=\n\ Pone\ el\ texto\ from,\ to\ ,\ mensaje\ y\ con\ ellos\n\ quien\ es\ el\ receptor\ emisor\ y\ cual\ es\ el\n\ mensaje\n
+numComments=6
