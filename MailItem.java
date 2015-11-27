@@ -17,11 +17,11 @@ public class MailItem
     /**
      * Constructor para objetos de la clase mailitem
      */
-    public MailItem(String froms,String tos,String messages)
+    public MailItem(String from,String to,String message)
     {
-        from = froms;
-        to = tos;
-        message = messages;
+        this.from = from;
+        this.to = to;
+        this.message = message;
     }
 
    /**

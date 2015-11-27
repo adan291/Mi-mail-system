@@ -13,10 +13,10 @@ public class MailClient
     /**
      * Constructor para objetos de la calse mailclient
      */
-    public MailClient(MailServer servers, String users)
+    public MailClient(MailServer server, String user)
     {
-        server = servers;
-        user = users;
+        this.server = server;
+        this.user = user;
     }
 
     /**

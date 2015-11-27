@@ -1,5 +1,5 @@
 #BlueJ class context
-comment0.params=servers\ users
+comment0.params=server\ user
 comment0.target=MailClient(MailServer,\ java.lang.String)
 comment0.text=\n\ Constructor\ para\ objetos\ de\ la\ calse\ mailclient\n
 comment1.params=
