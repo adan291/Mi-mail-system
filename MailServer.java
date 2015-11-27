@@ -30,7 +30,7 @@ public class MailServer
      */
     public int howManyMailItems(String who)
     {
-        int count = 0;
+        int count = 0;  
         for(MailItem item : items) {
             if(item.getTo().equals(who)) {
                 count++;

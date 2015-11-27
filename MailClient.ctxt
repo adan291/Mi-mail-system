@@ -13,4 +13,6 @@ comment3.target=void\ sendMailItem(java.lang.String,\ java.lang.String,\ java.la
 comment3.text=\n\ Metodo\ que\ permite\ escribir\ un\ mensaje\ al\ usuario\ \n\ Email\ enviado\ que\ pasa\ por\ \n\ el\ servidor\ .\n\ \n
 comment4.params=
 comment4.target=void\ howManyMailItems()
-numComments=5
+comment5.params=
+comment5.target=void\ getNextMailItemAndSendAutomatic()
+numComments=6
