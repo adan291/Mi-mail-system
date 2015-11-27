@@ -11,4 +11,6 @@ comment2.text=\n\ Decir\ o\ no\ si\ hay\ mail.\n
 comment3.params=to\ subject\ message
 comment3.target=void\ sendMailItem(java.lang.String,\ java.lang.String,\ java.lang.String)
 comment3.text=\n\ Metodo\ que\ permite\ escribir\ un\ mensaje\ al\ usuario\ \n\ Email\ enviado\ que\ pasa\ por\ \n\ el\ servidor\ .\n\ \n
-numComments=4
+comment4.params=
+comment4.target=void\ howManyMailItems()
+numComments=5

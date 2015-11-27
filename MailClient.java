@@ -52,4 +52,10 @@ public class MailClient
         MailItem item = new MailItem(user, to, subject, message);
         server.post(item);
     }
+    public void howManyMailItems()
+    {
+        int contador = server.howManyMailItems(user);
+        System.out.println("Correos pendientes:" + contador);
+    }
+    
 }
